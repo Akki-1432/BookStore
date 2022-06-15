@@ -1,0 +1,454 @@
+body{
+	width: 100%;
+}
+.clr{
+	clear: both;
+}
+.main1{
+	width: 100%;
+}
+.wrapper{
+	width: 100%;
+}
+/*HEADER1*/
+.heading{
+	width: 100%;
+	background-color: grey;
+	height: 60px;
+	float: left;
+	padding-top: 10px;
+	
+}
+.social_logo{
+ 	
+	width: 30%;
+	float: left;
+}
+.social_logo ul{
+
+}
+.social_logo ul li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+}
+.social_logo ul li a{
+	text-decoration: none;
+	list-style-type: none;
+}
+.social_logo ul li a img{
+	width: 40px;
+	height: 40px;
+
+}
+.middle{
+	
+	width: 40%;
+	float: left;
+	margin-left: 200px
+	/*text-align: center;*/
+}
+.welcome{
+	margin-left: 1000px 
+
+}
+.welcome h2{
+	padding-left: 300px;
+	text-shadow: 2px 2px 2px gold;
+}
+/*HEADER2*/
+.header1{
+	width: 100%;
+	float: left;
+
+}
+/*LOGO*/
+.logo{padding-left: 30px;
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+.logoname{
+
+}
+.logoname h2{
+	margin-top: -20px;
+	margin-left: 12px;
+}
+.logoname h5{
+	margin-top: -10px;
+	margin-left: 20px;
+	font-size: 15px;
+}
+/*MENU*/
+.menu{
+	width: 40%;
+	float: left;
+}
+.menu ul{
+		margin-top: 60px;
+}
+.menu ul li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	margin-right: 40px;
+	font-size: 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	font-weight: bold;	
+}
+.menu ul li a:hover{
+	color: red;
+	cursor: pointer;
+	text-shadow: 2px 2px 2px gold; 
+}
+/*LOGIN DETAILS*/
+.register{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.but{
+	float: left;
+	/*margin-left: 90px;*/
+}
+.register .but button{
+	border: 0px;
+	border-radius: 100px;
+	-webkit-appearance:none;
+	background-color: #a0522d;
+	width: 120px;
+	height: 35px;
+	margin-top: 55px;
+	margin-left: 60px;
+	box-shadow: 2px 2px 2px red;
+	font-weight: bold;
+	color: white;
+	border-radius: 13px;
+
+}
+/*MODAL FOR LOGIN*/
+.modal{
+	display: none;
+	z-index: 1;
+	margin-left: 800px;
+	margin-top: 120px;
+	top: 0px;
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+	/*background-color: grey;*/
+	text-align: center;
+}
+/*Modal Content Box*/
+.modal-content{
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 40%;
+
+}
+/*The Close Button*/
+.close{
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*CART*/
+.cart{
+	margin-top: 47px;
+	float: left;
+	margin-left: 40px;
+}
+.cart img{
+	width: 40px;
+	height: 40px;
+}
+.cart sup{
+	line-height: 2;
+}
+/*.cart i{
+	margin-left: 20px;
+	margin-top: -25px;
+}*/
+.carousel-caption h5{
+	color: ;
+}
+.shopbutton button{
+	width: 150px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #FFD801;
+	font-weight: bold;
+}
+/*FEATURED BOOKS & BEST SELLER*/
+.featuretext h2{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.featuredbook{
+	width: 100%;
+}
+/*BOOKNAME*/
+.bookname h5{
+	text-align: center;
+	color: black;
+}
+.book1{
+	width: 25%;
+	float: left;
+}
+.book2{
+	text-align: center;
+}
+.book2 img{
+	width: 300px;
+	height: 350px;
+}
+/*PRICE*/
+.price{
+	text-align: center;
+	margin-top: 10px
+}
+.price p{
+	font-weight: bold;
+}
+.price strike{
+	color: red;
+}
+/*BUY NOW & ADD TO CART BUTTON*/
+.button1{
+	 border-radius: 10px;
+  background-color: goldenrod;
+  border: none;
+  color: black;	
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  /*padding: 20px;*/
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px 0px 5px 0px;
+  margin-left: 37px
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.ltext{
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	margin-right: 130px;
+	margin-left: -50px;
+	color: black;
+	border: solid;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+.ctext{
+	width: 33%;
+	float: right;
+	text-align: center;
+	margin-top: 40px;
+	color: black;
+	border: solid;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+}
+.rtext{
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	color: black;
+}
+/*FOOTER*/
+.footer{
+	width: 100%;
+	background-color: black;
+	float: left;	
+	height: 350px;
+	color: grey;
+	margin-top: 20px;
+
+
+}
+.f1{
+	width: 50%;
+	margin-top: 20px;
+}
+
+
+.f2{
+	float: right;
+	margin-right: 300px;
+	margin-top: -300px
+}
+.hleft{
+	width: 25%;
+	float: left;
+	margin-left: 50px;
+}
+.hleft h2{
+	font-size: 20px;
+}
+.hright{
+	float: left;
+	margin-top: 60px;
+	margin-left: 150px;
+}
+.hright img{
+	width: 30px;
+	height: 30px;	
+}
+.lleft{
+	width: 25%;
+	float: left;
+	margin-left: 50px;	
+}
+.lleft h2{
+	font-size: 15px;
+}
+.lleft ul li{
+	font-size: 12px;
+}
+.lright{
+	float: left;
+	margin-left: 150px;
+}
+.lright h2{
+	font-size: 15px;
+}
+.lright button{
+	width: 90px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+}
+.aleft{
+	width: 25%;
+	float: left;
+	margin-left: 50px;
+}
+.aleft h2{
+	font-size: 13px;
+}
+.aright{
+	float: left;
+	margin-left: 150px;
+}
+.aright h2{
+	font-size: 13px;
+}
+.f2 {
+	padding-top: 20px;
+}
+.f2 h2{
+	font-size: 20px;
+}
+.nleft{
+	float: left;
+	
+}
+.nright{
+	float: left;
+	margin-left: 20px
+}
+.gmail{
+
+}
+.num{
+
+}
+.name{
+
+}
+.message{
+
+}
+.nleft input{
+	background-color: transparent;
+	color: white;
+	width: 120px;
+	height: 25px;
+}
+.nright input{
+	background-color: transparent;
+	color: white;
+	width: 120px;
+	height: 25px;
+}
+.gmail input{
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 25px;
+}
+.num input{
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 25px;
+}
+.name input{
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 25px;
+}
+.message input{
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 32px;
+}
+.f2 button{
+	background-color: blue;
+	width: 120px;
+	height: 30px;
+	color: white;
+}
+.footer1{
+	width: 100%;
+	background-color: #2C3539;
+	text-align: center;
+	height: 40px;
+	margin-top: -20px;
+}
+.footer1 h4{
+	margin-top: 10px;
+	padding-top: 10px;
+}

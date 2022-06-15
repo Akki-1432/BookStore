@@ -1,0 +1,306 @@
+body{
+	width: 100%;
+}
+.clr{
+	clear: both;
+}
+.main1{
+	width: 100%;
+}
+.wrapper{
+	width: 100%;
+}
+/*HEADER1*/
+.heading{
+	width: 100%;
+	background-color: grey;
+	height: 60px;
+	float: left;
+	padding-top: 10px;
+	
+}
+.social_logo{
+ 	
+	width: 30%;
+	float: left;
+}
+.social_logo ul{
+
+}
+.social_logo ul li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+}
+.social_logo ul li a{
+	text-decoration: none;
+	list-style-type: none;
+}
+.social_logo ul li a img{
+	width: 40px;
+	height: 40px;
+
+}
+.middle{
+	
+	width: 40%;
+	float: left;
+	margin-left: 200px
+	/*text-align: center;*/
+}
+.welcome{
+	margin-left: 1000px 
+
+}
+.welcome h2{
+	padding-left: 300px;
+	text-shadow: 2px 2px 2px gold;
+}
+/*HEADER2*/
+.header1{
+	width: 100%;
+	float: left;
+
+}
+/*LOGO*/
+.logo{
+	width: 20%;
+	float: left;
+	/*border: solid;*/
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+.logoname{
+
+}
+.logoname h2{
+	margin-top: -20px;
+	margin-left: 12px;
+}
+.logoname h5{
+	margin-top: -10px;
+	margin-left: 20px;
+	font-size: 15px;
+}
+/*MENU*/
+.menu{
+	width: 40%;
+	float: left;
+}
+.menu ul{
+		margin-top: 60px;
+}
+.menu ul li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	margin-right: 40px;
+	font-size: 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	font-weight: bold;	
+}
+.menu ul li a:hover{
+	color: red;
+	cursor: pointer;
+	text-shadow: 2px 2px 2px gold; 
+}
+/*LOGIN DETAILS*/
+.register{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.but{
+	float: left;
+	/*margin-left: 90px;*/
+}
+.register .but button{
+	border: 0px;
+	border-radius: 100px;
+	-webkit-appearance:none;
+	background-color: #a0522d;
+	width: 120px;
+	height: 35px;
+	margin-top: 55px;
+	margin-left: 60px;
+	box-shadow: 2px 2px 2px red;
+	font-weight: bold;
+	color: white;
+	border-radius: 13px;
+
+}
+/*MODAL FOR LOGIN*/
+.modal{
+	display: none;
+	z-index: 1;
+	margin-left: 800px;
+	margin-top: 120px;
+	top: 0px;
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+	/*background-color: grey;*/
+	text-align: center;
+}
+/*Modal Content Box*/
+.modal-content{
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 40%;
+
+}
+/*The Close Button*/
+.close{
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+/*CART*/
+.cart{
+	margin-top: 45px;
+	float: left;
+}
+.cart img{
+	width: 40px;
+	height: 40px;
+}
+.cart sup{
+	line-height: 2;
+}
+/*NAVIGATION BAR*/
+.lbody{
+	width: 20%;
+	background-color: black;
+	height: 500px;
+	position: fixed;
+	margin-top: 30px;
+}
+.lbody input{
+	background-color: white;
+	margin-left: 30px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.lbody button{
+	background-color: orange;
+	border-radius: 10px;
+}
+.lbody h5{
+	font-size: 30px;
+	color: #b81426;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 35px;
+}
+.lbody ul{
+	text-decoration: none;
+	margin: 10px;
+	margin-left: 50px;
+	list-style-type: none;
+}
+.lbody ul li{
+	margin: 10px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+.lbody ul li a{
+	color: grey;
+	text-decoration: none;
+}
+.lbody ul li a:hover{
+	cursor: pointer;
+	color: skyblue;
+}
+/*SHOP PRODUCTS*/
+.body .rbody{
+	float: right;
+	width: 80%;
+}
+.book1 {
+	float: left;
+	margin-top: 40px;
+}
+.book2 {
+	float: left;
+}
+.rpic {
+	margin-left: 100px;
+}
+.rpic img{
+	width: 200px;
+	height: 250px;
+	border-radius: 20px;
+}
+.rpic img{
+	padding: 40px;
+	background-color: transparent;
+	transition: transform .2s;
+}
+.rpic img:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.bookname h5{
+	margin-left: 100px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-align: center;
+}
+.price {
+	text-align: center;
+}
+.price p{
+	margin-left: 140px;
+	font-weight: bold;
+}
+.price strike{
+	color: red;
+}
+.button1{
+	 border-radius: 10px;
+  background-color: goldenrod;
+  border: none;
+  color: black;	
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  /*padding: 20px;*/
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px 0px 5px 0px;
+  margin-left: 130px;
+  margin-top: -7px;
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}

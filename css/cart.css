@@ -1,0 +1,423 @@
+body{
+	width: 100%;
+}
+.clr{
+	clear: both;
+}
+.main1{
+	width: 100%;
+}
+.wrapper{
+	width: 100%;
+}
+/*HEADER1*/
+.heading{
+	width: 100%;
+	background-color: grey;
+	height: 60px;
+	float: left;
+	padding-top: 10px;
+	
+}
+.social_logo{
+ 	
+	width: 30%;
+	float: left;
+}
+.social_logo ul{
+
+}
+.social_logo ul li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+}
+.social_logo ul li a{
+	text-decoration: none;
+	list-style-type: none;
+}
+.social_logo ul li a img{
+	width: 40px;
+	height: 40px;
+
+}
+.middle{
+	
+	width: 40%;
+	float: left;
+	margin-left: 200px
+	/*text-align: center;*/
+}
+.welcome{
+	margin-left: 1000px 
+
+}
+.welcome h2{
+	padding-left: 300px;
+	text-shadow: 2px 2px 2px gold;
+}
+/*HEADER2*/
+.header1{
+	width: 100%;
+	float: left;
+
+}
+/*LOGO*/
+.logo{
+	width: 20%;
+	float: left;
+	/*border: solid;*/
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+.logoname{
+
+}
+.logoname h2{
+	margin-top: -20px;
+	margin-left: 12px;
+}
+.logoname h5{
+	margin-top: -10px;
+	margin-left: 20px;
+	font-size: 15px;
+}
+/*MENU*/
+.menu{
+	width: 40%;
+	float: left;
+}
+.menu ul{
+		margin-top: 60px;
+}
+.menu ul li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	margin-right: 40px;
+	font-size: 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	font-weight: bold;	
+}
+.menu ul li a:hover{
+	color: red;
+	cursor: pointer;
+	text-shadow: 2px 2px 2px gold; 
+}
+/*LOGIN DETAILS*/
+.register{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.but{
+	float: left;
+	/*margin-left: 90px;*/
+}
+.register .but button{
+	border: 0px;
+	border-radius: 100px;
+	-webkit-appearance:none;
+	background-color: #a0522d;
+	width: 120px;
+	height: 35px;
+	margin-top: 55px;
+	margin-left: 60px;
+	box-shadow: 2px 2px 2px red;
+	font-weight: bold;
+	color: white;
+	border-radius: 13px;
+
+}
+/*MODAL FOR LOGIN*/
+.modal{
+	display: none;
+	z-index: 1;
+	margin-left: 800px;
+	margin-top: 120px;
+	top: 0px;
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+	/*background-color: grey;*/
+	text-align: center;
+}
+/*Modal Content Box*/
+.modal-content{
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 40%;
+
+}
+/*The Close Button*/
+.close{
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+/*CART*/
+.cart{
+	margin-top: 45px;
+	float: left;
+}
+.cart img{
+	width: 40px;
+	height: 40px;
+}
+.cart sup{
+	line-height: 2;
+}
+/*CART ITEMS DETAILS*/
+.small-container{
+	/*padding: 2%;*/
+	/*padding-left: 100px;*/
+	/*border: solid;*/
+	width: 70%;
+}
+.cart-page{
+	margin: 80px auto;
+}
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+th{
+	text-align: left;
+	padding: 10px;
+	color: white;
+	background: #ff523b;
+	font-weight: normal;
+	width: 70%;
+}
+td{
+	padding: 10px 5px;
+}
+td input{
+	width: 50px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color: #ff523b;
+	font-size: 12px;
+}
+td img{
+	width: 80px;
+	height: 90px;
+	margin-right: 10px;
+}
+.total-price{
+	display: flex;
+	justify-content: flex-end;
+}
+.total-price table{
+	border-top: 3px solid #ff523b;
+	width: 100%;
+	max-width: 370px;
+}
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
+.pay-button button{
+	float: right;
+	text-align: center;
+	max-width: 370px;
+	width: 100%;
+	background: #ff523b;
+	padding: 5px;
+
+}
+.pay-button button a{
+	color: black;
+}
+.update-cart-button button{
+	float: left;
+	margin-left: 30px; 
+	background: #ff523b;
+}
+.continue-shop-cart button{
+	float: left;
+	background: #ff523b;
+}
+
+/*FOOTER*/
+
+.footer{
+	width: 100%;
+	background-color: black;
+	float: left;	
+	height: 350px;
+	color: grey;
+	margin-top: 20px;
+
+
+}
+.f1{
+	width: 50%;
+	margin-top: 20px;
+}
+
+
+.f2{
+	float: right;
+	margin-right: 300px;
+	margin-top: -300px
+}
+.hleft{
+	width: 25%;
+	float: left;
+	margin-left: 50px;
+}
+.hleft h2{
+	font-size: 20px;
+}
+.hright{
+	float: left;
+	margin-top: 60px;
+	margin-left: 150px;
+}
+.hright img{
+	width: 30px;
+	height: 30px;	
+}
+.lleft{
+	width: 25%;
+	float: left;
+	margin-left: 50px;	
+}
+.lleft h2{
+	font-size: 15px;
+}
+.lleft ul li{
+	font-size: 12px;
+}
+.lright{
+	float: left;
+	margin-left: 150px;
+}
+.lright h2{
+	font-size: 15px;
+}
+.lright button{
+	width: 90px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+}
+.aleft{
+	width: 25%;
+	float: left;
+	margin-left: 50px;
+}
+.aleft h2{
+	font-size: 13px;
+}
+.aright{
+	float: left;
+	margin-left: 150px;
+}
+.aright h2{
+	font-size: 13px;
+}
+.f2 {
+	padding-top: 20px;
+}
+.f2 h2{
+	font-size: 20px;
+}
+.nleft{
+	float: left;
+	
+}
+.nright{
+	float: left;
+	margin-left: 20px
+}
+.gmail{
+
+}
+.num{
+
+}
+.name{
+
+}
+.message{
+
+}
+.nleft input{
+	background-color: transparent;
+	color: white;
+	width: 120px;
+	height: 25px;
+}
+.nright input{
+	background-color: transparent;
+	color: white;
+	width: 120px;
+	height: 25px;
+}
+.gmail input{
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 25px;
+}
+.num input{
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 25px;
+}
+.name input{
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 25px;
+}
+.message input{
+	background-color: transparent;
+	color: white;
+	width: 300px;
+	height: 32px;
+}
+.f2 button{
+	background-color: blue;
+	width: 120px;
+	height: 30px;
+	color: white;
+}
+.footer1{
+	width: 100%;
+	background-color: #2C3539;
+	text-align: center;
+	height: 40px;
+	margin-top: -20px;
+}
+.footer1 h4{
+	margin-top: 10px;
+	padding-top: 10px;
+}
